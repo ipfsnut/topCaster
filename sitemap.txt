@@ -1,0 +1,35 @@
+sitemap.txt
+
+/
+  - Landing page
+  - Login with Metamask
+
+/dashboard
+  - User dashboard
+  - Scraping configuration
+    - Set website URL
+    - Set filtering criteria
+    - Set publishing schedule
+  - View published casts
+  - Manage account settings
+
+/api
+  - /api/auth
+    - /login (Metamask authentication)
+    - /logout
+  - /api/config
+    - GET /config (Retrieve user's scraping configuration)
+    - POST /config (Save user's scraping configuration)
+    - PUT /config (Update user's scraping configuration)
+  - /api/casts
+    - GET /casts (Retrieve published casts)
+    - POST /casts (Create a new cast)
+
+/about
+  - About the application
+
+/terms
+  - Terms of service
+
+/privacy
+  - Privacy policy
